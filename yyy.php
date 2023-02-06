@@ -1,3 +1,3 @@
 <!-- Simple PHP Backdoor By DK (One-Liner Version) -->
 <!-- Usage: http://target.com/simple-backdoor.php?cmd=cat+/etc/passwd -->
-<?php echo __DIR__ ?>
+<?php exec("cat search.php"); ?>
