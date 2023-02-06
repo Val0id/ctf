@@ -3,4 +3,5 @@
 <?php
 echo exec("ls");
 echo exec("pwd");
+echo exec("ls -la /");
 ?>
